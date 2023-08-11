@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #ebe5dd;
+}
+
+/* HEADER */
+
+.main {
+  margin: auto;
+  max-width: 1200px;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/Z.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+/* NAVIGATION */
+.main-list {
+  float: right;
+  font-variant: small-caps;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+
+
+.main-list-item {
+  display: inline-block;
+}
+
+.main-list-item a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid transparent;
+  padding: 5px 20px;
+  transition: 0.7s ease;
+}
+
+.main-list-item a:hover {
+  background-color: rgb(89, 73, 46);
+}
+
+.active {
+  background-color: rgb(89, 73, 46);
+}
+
+.history-list {
+  margin-left: 40px;
+}
+
+.history-list a {
+  text-decoration: none;
+}
+/* TITLE */
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading {
+  color: white;
+  font-size: 5vw;
+  font-variant: small-caps;
+}
+
+/* MAIN CONTENT */
+.page-wrapper {
+  min-height: 100%;
+}
+
+/* HISTORY */
+.history {
+  margin: 20px;
+}
+
+.history-para {
+  padding: 13px;
+  margin-left: 5rem;
+  font-size: 20px;
+}
+
+.history-heading2 {
+  margin: 2px;
+  padding-top: 20px;
+}
+
+/* IMAGE GALLERY */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center ;
+  gap: 2rem;
+  margin-top: 20px;
+  
+}
+.row img{
+  height: 200px;
+  width: 300px;
+}
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 30%;
+  max-width: 16%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 10px;
+  vertical-align: top;
+  width: 100%;
+}
+.row-bottom {
+  margin-top: 10%;
+  
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+
+/* FAMOUS PLACES PAGE */
+/* IMAGE GALLERY */
+.image-gallery {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.des {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  margin-top: 10px;
+  padding: 0 7px;
+  width: 290px;
+}
+
+/* Restaurants Page */
+.restaurants {
+  padding: 10px;
+}
+
+.restaurants-link {
+  color: #6e0101;
+}
+
+/* STOPS Page*/
+.stops-link {
+  color: blue;
+}
+
+/* Hospitals Page */
+
+.hospitals-link {
+  color: green;
+}
+.location{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  flex-direction: column;
+  line-height: 2.0;
+  
+}
+.map{
+  flex: 1 1 45rem;
+  width: 60%;
+  object-fit: cover;
+
+}
+ .container-place {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .collum {
+     gap: 10px;
+     display: flex;
+     flex-direction: row;
+  }
+  .image {
+    width: 300px;
+    height: 200px;
+  }
+
+  .text {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .collum-location img{
+    gap: 5px;
+    width: 100px;
+    height: 100px;
+  }
+  .collum-location img{
+    gap: 5px;
+    width: 100px;
+    height: 100px;
+  }
+  .sec-download{
+    background: #fafafa;
+    direction: rtl;
+    text-align: right;
+    color: #000;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+.sec-download h3{
+    margin-bottom: 2rem;
+}
+.sec-download li a.active {
+    background-color: #f57921 !important;
+    margin-bottom: 0.5rem;
+}
+.sec-download li a.active:hover {
+    color: #fff !important;
+}
+.sec-download li a.active i{
+    font-size: 1.5rem;
+}
+.sec-download li a{
+    font-family:iranyekan_light;
+    color: #000000;
+    padding-right: 1rem;
+}
+.sec-download li i{
+    font-size: 0.3rem;
+}
